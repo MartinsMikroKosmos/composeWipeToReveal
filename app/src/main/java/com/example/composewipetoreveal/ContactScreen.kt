@@ -92,7 +92,7 @@ fun ContactScreen(modifier: Modifier = Modifier) {
                                     Toast.LENGTH_SHORT,
                                 ).show()
                         },
-                        backgroundColor = Color.Magenta,
+                        backgroundColor = Color.Black,
                         icon = Icons.Default.Share,
                         modifier = Modifier.fillMaxHeight(),
                     )
