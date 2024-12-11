@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeWipeToRevealTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ContactScreen()
+                    CardGame()
                 }
             }
         }
